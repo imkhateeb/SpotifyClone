@@ -1,0 +1,86 @@
+#bollywoodHitsTitleContainer{
+    display: flex;
+    background-color: rgb(108, 101, 101);
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 10px;
+    height: 50vh;
+    box-shadow: -5px 20px 100px 2px rgb(108, 101, 101);
+
+}
+#bollywoodHitsTitleImg{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+#bollywoodHitsTitleImg img{
+    width: 250px;
+    height: 250px;
+    box-shadow: -5px -1px 30px 2px rgb(45, 45, 45);
+}
+
+#bollywoodHitsTitles{
+    display: flex;
+    flex-direction: column;
+}
+#title-para-1{
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+#title-heading{
+    margin: 40px 3px;
+    font-size: 1.2rem;
+    font-family: 'Varela Round', sans-serif;
+
+}
+#title-bottom-paras{
+    margin-top: 60px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+#playlist-play{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#playlist-play-circle{
+    color: rgb(17, 183, 17);
+    margin: 3px 7px;
+    cursor: pointer;
+}
+
+#playlist-play-circle:hover{
+    color: rgb(67, 247, 67);
+}
+
+#playlist-play-heart{
+    color: rgb(17, 183, 17);
+    margin: 3px 7px;
+    cursor: pointer;
+}
+#playlist-play-heart:hover{
+    color: rgb(67, 247, 67);
+}
+#song-list-heading p{
+    padding: 5px;
+    display: inline-block;
+}
+#song-list-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#horizontal-lines{
+    width: 85%;
+    margin: auto;
+}
+
+
+/* Designing the song lists of bollywood hits page */
